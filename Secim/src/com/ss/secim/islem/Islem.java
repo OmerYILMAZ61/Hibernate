@@ -29,6 +29,7 @@ public class Islem {
 		
 	}
 
+	//oylama
 	private static void oylamaYap(DAO dao, Scanner sc) {
 		List<Secmen> list = dao.getSecmenList();
 		int[] oySayisi = { 0, 0, 0, 0 };

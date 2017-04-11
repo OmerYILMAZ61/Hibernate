@@ -15,7 +15,7 @@ public class DAO {
 
 	SessionFactory sessionFactory;
 	public DAO() {
-		sessionFactory= new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+		sessionFactory= new Configuration().configure("hibernate.xml").buildSessionFactory();
 	}
 	
 	//ekleme
